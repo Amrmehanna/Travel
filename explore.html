@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Travel Booking">
+
+  <title> Travel Booking </title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <link rel="stylesheet" href="css/explore.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Gugi|Roboto+Condensed" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!--[if lt IE 9]
+	  <script src="js/html5shiv.min.js"></script>
+      <![endif]-->
+  <style></style>
+  <script>
+  </script>
+</head>
+
+<body>
+
+  <!-- Start Header -->
+  <header>
+
+    <nav>
+
+      <div class="nav-bar float-left">
+        <a href="home.html">
+          <img src="img/logo.png">
+        </a>
+      </div>
+
+
+      <div class="nav-bar float-left">
+
+        <ul>
+          <li><a href="home.html"> Home</a>
+          </li>
+
+          <li class="dropdown">
+            <a style="transition: all .1s ease-in-out;cursor: pointer;color: #5D25DD">Explore &#65516;</a>
+            <div class="dropcontent">
+              <a href="home.html">Home</a>
+              <a href="explore.html">Explore</a>
+              <a href="listing.html">Listing</a>
+              <a href="single-listing.html">Single Listing</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </li>
+
+
+          <li class="dropdown">
+            <a style="transition: all .1s ease-in-out ;cursor: pointer">Listing &#65516;</a>
+            <div class="dropcontent">
+              <a href="home.html">Home</a>
+              <a href="explore.html">Explore</a>
+              <a href="listing.html">Listing</a>
+              <a href="single-listing.html">Single Listing</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+      </div>
+      <div class="nav-bar sign float-left">
+
+        <a href="#"> Sign in or Register</a>
+
+      </div>
+      <div class="nav-bar float-right">
+        <div class="nav-icon">
+          <div class="container">
+            <div class="dropdown">
+              <i class="fas fa-bars">
+              </i>
+              <div class="dropcontent">
+                <a href="home.html" target="_blank">Home</a>
+                <a href="explore.html">Explore</a>
+                <a href="listing.html">Listing</a>
+                <a href="single-listing.html">Single Listing</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html"> Sign in or Register</a>
+                <a><button class="btn">
+                    +Add Listing</button> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn">
+          +Add Listing</button>
+      </div>
+      <div class="clearfix"></div>
+    </nav>
+
+
+  </header>
+
+  <!-- End Header -->
+
+
+  <!-- Start Map -->
+
+  <div class="mapouter float-right">
+    <div class="gmap_canvas"><iframe width="100%" height="800" id="gmap_canvas"
+        src="https://maps.google.com/maps?q=university%20of%20san%20&t=&z=11&ie=UTF8&iwloc=&output=embed"
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    </div>
+  </div>
+
+  <!-- End Map -->
+
+
+  <!-- Start Book -->
+  <div class="book float-left">
+
+
+    <div class="book-content">
+      <div class="Places ">
+        <h2>What are you looking for?</h2>
+        <div class="book-list">
+          <ul>
+            <li>Places</li>
+          </ul>
+        </div>
+        <form action="#" method="get">
+          <select name="Destination">
+            <option>Your Destination</option>
+            <option>Cairo</option>
+            <option>Rome</option>
+            <option>New York</option>
+            <option>London</option>
+            <option>Manchester</option>
+            <option>Paris</option>
+          </select>
+
+          <select name="Catagories">
+            <option>All Catagories</option>
+            <option>Catagorie 1</option>
+            <option>Catagorie 2</option>
+            <option>Catagorie 3</option>
+          </select>
+          <select name="Price-Range">
+            <option>Price Range</option>
+            <option>$100 - $499</option>
+            <option>$500 - $999</option>
+            <option>$1000 - $4999</option>
+          </select>
+          <div class="check"><label> Credit </label>
+            <input type="checkbox" name="Credit"></div>
+
+          <div class="check"><label>Bike Parking</label>
+            <input type="checkbox" name="Bike Parking"></div>
+
+          <div class="check"><label>Wireless </label>
+            <input type="checkbox" name="Wireless"></div>
+
+          <div class="check"><label>Reservation</label>
+            <input type="checkbox" name="Reservation"></div>
+
+          <div class="check"><label>Privat </label>
+            <input type="checkbox" name="Privat"></div>
+
+          <div class="check"><label>Smoking </label>
+            <input type="checkbox" name="Smoking"></div>
+
+          <div class="check"><label>Wheelchair </label>
+            <input type="checkbox" name="Wheelchair"></div>
+
+          <div class="check"><label>Coupons</label>
+            <input type="checkbox" name="Coupons"></div>
+
+
+          <input class="btn" type="submit" name="submit" value="search">
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- End Book -->
+
+  <!-- Start Destination -->
+
+
+  <div class="Destination text-center">
+
+
+
+    <div class="Destination-feat float-right">
+      <p>FROM $59/night</p>
+      <img src="img/feature-1.jpg">
+      <div class="Destination-content">
+
+        <div class="Destination-heading">
+          <h5>IBIZA</h5>
+          <P>Party</P>
+
+        </div>
+
+        <i class="far fa-heart"></i>
+
+      </div>
+
+    </div>
+    <div class="clearfix"></div>
+
+
+    <div class="Destination-feat float-right">
+      <p>FROM $60/night</p>
+      <img src="img/feature-2.jpg">
+      <div class="Destination-content">
+
+        <div class="Destination-heading">
+          <h5>PARIS</h5>
+          <P>Luxury</P>
+
+        </div>
+
+        <i class="far fa-heart"></i>
+
+      </div>
+
+    </div>
+    <div class="clearfix"></div>
+
+
+    <div class="Destination-feat float-right">
+      <p>FROM $70/night</p>
+      <img src="img/feature-3.jpg">
+      <div class="Destination-content">
+
+        <div class="Destination-heading">
+          <h5>LAKE COMO</h5>
+          <P>Spectcular</P>
+
+        </div>
+
+        <i class="far fa-heart"></i>
+
+      </div>
+
+    </div>
+    <div class="clearfix"></div>
+
+
+    <div class="Destination-feat float-right">
+      <p>FROM $63/night</p>
+      <img src="img/feature-4.jpg">
+      <div class="Destination-content ">
+
+        <div class="Destination-heading">
+          <h5>GREECE</h5>
+          <P>Sunny</P>
+
+        </div>
+
+        <i class="far fa-heart"></i>
+
+      </div>
+
+    </div>
+    <div class="clearfix"></div>
+
+
+    <div class="Destination-feat float-right">
+      <p>FROM $80/night</p>
+      <img src="img/feature-5.jpg">
+      <div class="Destination-content">
+
+        <div class="Destination-heading">
+          <h5>NORWAY</h5>
+          <P>All Year round</P>
+
+        </div>
+
+        <i class="far fa-heart"></i>
+
+      </div>
+
+    </div>
+    <div class="clearfix"></div>
+
+
+  </div>
+
+
+  <!-- End Destination -->
+
+
+  <div class="clearfix"></div>
+  <!-- start footer -->
+  <footer>
+    <div class="container">
+      <h3 class="p"> Copyright &copy; 2019 - Built With Love
+        <i class="fas fa-heart"></i>
+      </h3>
+
+      <ul>
+        <li><a href="#" target="_blank"> <i class="fab fa-facebook-square fa-2x"></i></a></li>
+
+        <li> <a href="#" target="_blank">
+            <i class="fab fa-youtube-square fa-2x"></i></a></li>
+
+        <li> <a href="https://www.instagram.com/amr_mehana" target="_blank"> <i class="fab fa-instagram fa-2x"></i></a>
+        </li>
+
+        <li> <a href="#" target="_blank"> <i class="fab fa-github fa-2x"></i></a></li>
+
+        <li> <a href="#" target="_blank"><i class="fab fa-codepen fa-2x"></i> </a> </li>
+      </ul>
+    </div>
+  </footer>
+  <div class="clearfix"></div>
+  <!-- End footer -->
+
+
+  <script src="js/File.js"></script>
+
+</body>
+
+</html>

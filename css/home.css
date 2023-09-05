@@ -1,0 +1,1342 @@
+* {
+    -webkit-box-sizing: border-box;-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+
+}
+body { height: 5016px;
+
+font-family: 'Roboto Condensed', sans-serif;
+}
+/******* Start Header *******/
+
+header { height: 900px ;
+         background-image: url('../img/hero.jpeg');
+     background-size: cover; 
+ background-position: center;
+
+}
+nav {
+            background-color: 
+            rgba(38,27,57,.94)
+            ;margin-top: 148px;height: 81px;
+            position: fixed;
+            top: -149px;
+            left: 0px;
+            width: 100%;
+    z-index: 9999;
+}
+.nav-bar {width: 25%}
+
+.nav-bar:first-of-type{
+    margin-top: -12px;
+    width: 20%;
+}
+
+.nav-bar:nth-of-type(2){width: 30%}
+.nav-bar img {
+    height: 106px;
+    cursor: pointer;
+    margin-left: 30px;
+    width: 166px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 22px;
+}
+.nav-bar ul li {
+    display: inline-block;
+    padding: 10px 18px 10px 0;
+    font-size: 17px;
+    font-weight:600;
+
+    
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white
+}
+.nav-bar ul li a:hover {
+    color: #5D25DD;
+    transition: all .5s ease-in-out}
+
+.nav-bar .dropdown {
+    position: relative;
+    display: inline-block;
+}
+.nav-bar .dropdown .dropcontent {
+        display: none;
+        position: absolute;
+        background-color:#FFFFFF;
+        width: 150px;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* box-shadow:  5px 5px 12px #ccc; */
+}
+.nav-bar .dropdown .dropcontent a {
+    display: inline-block;
+    text-decoration: none;
+    color: currentColor;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.nav-bar .dropdown .dropcontent a:hover{
+    background-color: #7643EA;
+    color: white;
+    transition: all .4s ease-in-out;
+     border: 1px solid #7643EA;
+        border-radius: 10px;
+}
+
+.nav-bar .dropdown:hover .dropcontent {
+    display: block;
+    transition: all .5s ease-in-out
+    } 
+
+nav .sign a {
+    
+   display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 31px;
+    margin-left: 140px;
+  
+}
+
+.nav-icon .dropdown .dropcontent  {
+    
+    width: 300px;    
+        }
+
+/*
+nav .sign input {
+    display: inline-block;
+    width: 45%;
+    background-color: #341A79;
+    border-radius:11px ;
+    border: 0;
+    color: #D9DEE2;
+    font-size: 30px; }
+*/
+.nav-bar button
+{ margin-left: 92px;
+    margin-top: 15px;}
+
+.nav-bar button:hover{
+    background-color: #5D25DD;
+    transition: all .5s ease-in-out;
+}
+
+.nav-bar i {
+    color: white;
+    border: 2px solid white ;
+    border-radius: 5px;
+    padding: 10px 17px;
+    cursor: pointer;
+}
+/******* End Header *******/
+
+/******* Start book *******/
+.book {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    bottom: 740px;
+
+}
+.book-heading {
+    width: 90%;
+    margin: auto !important;
+    
+}
+
+.book-heading h1 {color: white;
+    font-size: 75px;
+margin-bottom: 13px;}
+
+.book-heading h3 {
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.book-list {
+    width:90%;
+    margin: auto;}
+.book-list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.book-list ul li {
+    display: inline-block;
+    padding: 15px 22px;
+    font-size: 19px;
+    font-weight:600;
+    color: #5D25DD;
+    background-color: rgba(246,246,246,.9);
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ .book-content .Places { 
+    background-color: rgba(63,32,127,.8);
+     padding: 38px;
+     color: white;
+     width: 90%;
+      margin: auto;
+     margin-top: -16px;
+}
+.book-content .Places h2
+{    margin-bottom: 30px;
+     margin-top: -12px;
+}
+
+.book-content .Places .input
+{  
+    margin: 0 0 20px 293px;
+}
+
+#money {
+        width: 15%;
+        padding: 15px 0 !important ;
+        
+        
+}
+
+.book-content .Places form {
+    margin-left: 45px;
+}
+.book-content .Places select {
+     
+    padding: 15px 55px;
+    margin-right: 5px;
+    color: #616060;
+}
+
+
+.book-content .Places input {
+    padding-right: 40px;
+    border-radius: 0;
+        
+}
+
+
+/******* End Book *******/
+
+/******* Start features *******/
+
+.features
+
+{
+    position: relative;
+    bottom: 623px;
+    z-index: 9
+}
+
+.features .features-content .feat {
+    width: 18%;
+   
+    background-color: #7643EA;
+    margin-right: 2%;
+    height: 200px;
+    color: white;
+}
+.features .features-content .feat:hover {
+    transition: all .3s ease-in-out;
+     box-shadow: 0px 13px 20px 12px rgba(0,0,0,0.2);
+}
+.features .features-content .feat img {
+    display: block;
+    margin: auto;
+    margin-top: 62px;
+}
+.features .features-content .feat span {
+    position: relative;
+    top: 11px;
+    right: 0px;
+    display: block ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.feat-heading {
+    background-color: #eee;
+    box-shadow: 5px 5px 12px #ccc;
+    padding: 14px;
+    position: relative;
+    bottom: 402px;
+    z-index: 11;
+}
+
+ .feat-heading h2 {
+    color: #2A2A2A;
+    font-size: 46px;
+    font-weight:bolder;
+    margin-bottom: 0;
+    margin-top: 28px;
+}
+
+.feat-heading h3 {
+    color: #7643EA;
+    font-size: 45px;
+    font-weight:bolder;
+    margin-top: 10px;
+    margin-bottom: 35px
+    
+}
+ .feat-heading p
+{
+    color: #848484;
+    line-height: 1.5;
+    font-size: 22px;
+}
+/****** End features ******/
+
+/******* Start Cities *******/
+
+.all {
+    position: relative;
+    bottom: 1105px;
+}
+
+.cities {
+    
+    background-image: url('../img/hero-2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    
+
+}
+
+.ground {
+    height: 800px;
+    background-color: rgba(19,7,43,.88) !important;
+    position: relative;
+    top: 800px;
+    box-shadow: 5px -5px 11px #ccc;
+}
+
+.cities .container span {
+    display: inline-block;
+    width: 37px;
+    height: 2px;
+    background-color: white;
+}
+
+.cities .container h3 {
+    
+     color: white;
+    font-size: 35px;
+    font-weight:bolder;
+    margin-bottom: 0;
+}
+.cities .container P {
+    
+    color: white;
+}
+
+.cities .city-content .city-plan{
+  position: relative
+}
+
+
+.cities .city-content .city-plan:first-of-type
+{   width: 47%;
+    margin-right: 3%;
+    height: 50%;
+}
+
+
+.cities .city-content .city-plan:not(:first-of-type)
+{
+    width: 48% ;  
+}
+
+.cities .city-content .city-plan:nth-of-type(2)
+{margin-bottom: .7%}
+
+.cities .city-content .city-plan img {
+    width: 100%;
+ 
+}
+.cities .city-content .city-plan .city-info {
+    width: 430px;
+    height: 148px;
+	position: absolute;
+    
+	top:0;
+	bottom: 76px;
+    left: 0;
+    right: 76px;
+	margin: auto;
+}
+
+.cities .city-content .city-plan .diff {
+  left: 29px;
+    bottom: 337px;
+}
+
+
+.cities .city-content .city-plan .city-info .city-link  a
+{
+    background-color: #7643EA;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 22px 50px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+.cities .city-content .city-plan .city-info .city-link  a:nth-child(2) {
+    background-color: #2A2A2A;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.cities .city-content .city-plan .add-more 
+{
+    background-color: #30C0A3;
+    padding: 25px 30px;
+    text-align:center;
+    color: white;
+    font-size: 27px;
+    font-weight: bolder;
+     
+}
+
+/******* End Cities *******/
+
+
+
+/*******Start Destination *******/
+
+
+.Destination .container span {
+    display: inline-block;
+    width: 37px;
+    height: 2px;
+    background-color: #7643EA;
+}
+
+.Destination .container h3 {
+    
+     color: #2A2A2A;
+    font-size: 35px;
+    font-weight:bolder;
+    margin-bottom: 0;
+}
+.Destination .container P {
+    
+    color: #848484;
+    cursor: default;
+    font-size: 18px;
+}
+
+
+.Destination
+{
+    position: relative;
+    bottom: 1016px;
+    z-index: 10
+}
+
+.Destination .Destination-feat {
+    width: 18% 
+        ;margin-right: 2%;
+}
+
+.Destination .Destination-feat p:first-child {
+    
+    color: white;
+    background-color:  #7643EA;
+    padding: 8px;
+    margin: 0;
+}
+
+.Destination .Destination-feat img {
+    width: 100%;
+}
+.Destination .Destination-feat .Destination-content{
+   
+    width: 100%;
+    margin-top: -26px;
+    background-color: #F4F6F8;
+    
+}
+.Destination .Destination-feat .Destination-content h5
+
+{color: #2A2A2A;
+    font-size: 22px;
+    font-weight:bolder;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 21px;
+    cursor:default;
+}
+.Destination .Destination-feat .Destination-content
+{font-size: 23px;
+    margin-bottom: 0;}
+
+.Destination .Destination-feat:hover
+{box-shadow: 10px 0 14px #ccc;}
+
+.Destination .Destination-feat:hover .Destination-content  
+{
+     
+    background-color: #7643EA;
+     transition: all .4s ease-in-out;
+}
+
+.Destination .Destination-feat:hover .Destination-content h5 , .Destination .Destination-feat:hover .Destination-content p , .Destination .Destination-feat:hover .Destination-content i 
+{color: white;}
+
+
+.Destination .Destination-feat .Destination-content i{ 
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #7643EA;
+    cursor: pointer;
+}
+/******* End Destination *******/
+
+
+
+/*******Start Restauarant *******/
+
+
+.Restauarant
+{
+    height: 840px;
+    background-color: #341A79;
+    position: relative;
+    bottom: 525px;
+}
+   
+
+.Restauarant .container 
+{   
+    bottom: 290px;
+    position: relative;
+}
+
+.Restauarant .Restauarant-feat {
+    width: 18% 
+        ;margin-right: 2%;
+}
+
+.Restauarant .container span {
+    display: inline-block;
+    width: 37px;
+    height: 2px;
+    background-color: white;
+}
+
+.spec {
+    
+    color: white;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+.Restauarant .container .creem
+{   
+    position: absolute;
+ 
+}
+
+ 
+.Restauarant .container .creem a {
+        color: white;
+        font-weight: bolder;
+        background-color:  #7643EA;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    float: left
+    
+}
+.Restauarant .container .creem a:last-of-type {
+    background-color:#2A2A2A;
+    padding: 15px 20px;
+    
+}
+
+.Restauarant .container .creem a img  {
+    width: 21px;
+}
+
+.Restauarant .container h3 {
+    
+     color: white;
+    font-size: 35px;
+    font-weight:bolder;
+    margin-bottom: 0;
+}
+.Restauarant-heading P {
+    
+    color: #848484 ;
+    cursor: default;
+    font-size: 18px;
+       margin-bottom: 19px  ;
+}
+
+.Restauarant .Restauarant-feat p:first-child {
+    
+    color: white;
+    background-color:  #7643EA;
+    padding: 8px;
+    margin: 0;
+}
+
+.Restauarant .Restauarant-feat img {
+    width: 100%;
+}
+.Restauarant .Restauarant-feat .Restauarant-content{
+   
+    width: 100%;
+    margin-top: -26px;
+    background-color: #F4F6F8;
+    
+}
+.Restauarant .Restauarant-feat .Restauarant-content h5
+
+{color: #2A2A2A;
+    font-size: 22px;
+    font-weight:bolder;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 21px;
+    cursor:default;
+}
+.Restauarant .Restauarant-feat .Restauarant-content
+{font-size: 23px;
+    margin-bottom: 0;}
+
+/*.Restauarant .Restauarant-feat:hover
+{box-shadow: 10px 0 14px #ccc;} */
+
+.Restauarant .Restauarant-feat:hover .Restauarant-content
+
+{
+     
+    background-color: #7643EA;
+     transition: all .4s ease-in-out;
+}
+
+.Restauarant .Restauarant-feat:hover .Restauarant-content h5 , .Restauarant .Restauarant-feat:hover .Restauarant-content p , .Restauarant .Restauarant-feat:hover .Restauarant-content i 
+{color: white;}
+
+
+
+.Restauarant .Restauarant-feat .Restauarant-content i{ 
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: #7643EA;
+    cursor: pointer;
+}
+
+/******* End Restauarant *******/
+
+
+/******* Start Event *******/
+
+.Event
+{
+    background-image: url('../img/hero-3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 987px;
+    position: relative;
+    bottom: 525px;
+}
+   
+
+.overlay {
+   
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+     background-color: rgba(19,7,43,.88) ;
+}
+
+.Event .container span {
+    display:block;
+    width: 37px;
+    height: 2px;
+    background-color: white;
+    margin-top: 110px !important;
+    margin: auto;
+    
+}
+
+.Event .container h3 {
+    
+     color: white;
+    font-size: 40px;
+    font-weight:bolder;
+    margin-bottom: 0;
+}
+
+.spec {
+    
+    color: white;
+    margin-bottom: 90px;
+    font-weight: bold;
+}
+
+.Event .Event-feat {
+    width: 46% ;
+    margin-right: 2%;
+    margin-bottom: 40px;
+       
+}
+
+
+.Event .Event-feat img {
+    width: 30%;
+}
+.Event .Event-feat .Event-content{
+   
+    width: 70%;
+    background-color: #F4F6F8;
+    
+}
+
+.Event .container .creem
+{   
+    position: absolute;
+ 
+}
+
+ 
+.Event .container .creem a {
+        color: white;
+        font-weight: bolder;
+        background-color:  #7643EA;
+       padding: 15px 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    float: left
+    
+}
+.Event .container .creem a:last-of-type {
+    background-color:#30C0A3;
+    padding: 10px 20px;
+    
+}
+
+.Event .container .creem a img  {
+    width: 21px;
+}
+
+.Event-heading p:first-of-type {
+    color:#b9b1b1 
+}
+
+.Event-heading P {
+    color: gray;
+    cursor: default;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 0 13px 10px;
+}
+
+.Event .Event-feat .Event-content h5 {
+    color: #2A2A2A;
+    font-size: 22px;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    cursor: default;
+    padding-left: 10px;
+}
+.Event .Event-feat .Event-content
+{font-size: 23px;
+    margin-bottom: 0;}
+
+/*.Event .Restauarant-feat:hover
+{box-shadow: 10px 0 14px #ccc;} */
+
+.Event .Event-feat:hover .Event-content
+
+{
+     
+    background-color: #7643EA;
+     transition: all .4s ease-in-out;
+}
+
+.Event .Event-feat:hover .Event-content h5 , .Event .Event-feat:hover .Event-content p , .Event .Event-feat:hover .Event-content i 
+{color: white;}
+
+
+
+
+/******* End Event *******/
+
+
+/* start  footer */
+
+footer {
+    background-color:#12011f ;
+    text-align: center;
+    color: white;
+    padding:20px 0px;
+    overflow:hidden;
+    position: relative;
+    bottom: 525px;
+}
+   
+   
+
+
+footer h3 { 
+            margin: 10px 0 5px ;
+            font-weight: bolder;
+}
+
+footer h3 i {color: #6731e2;
+            padding-left: 4px;
+}
+
+footer h3 i:hover {color: #c70707;}
+
+
+footer ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0
+}
+
+footer ul li {
+    display:inline-block;
+    padding: 0 5px;
+    margin: 15px 0 ;
+}
+ 
+footer ul li i{color: #566366} 
+footer .fa-facebook-square:hover  {color: #3A559F}
+footer .fa-youtube-square:hover  {color:#CD201F} 
+footer .fa-instagram:hover  {color:#3F729B} 
+footer .fa-github:hover  {color:#FF9933}
+footer .fa-codepen:hover  {color: #BABABA}
+             
+             /* End  footer */
+
+
+
+
+
+
+
+/******* Start Media *******/
+
+@media (min-width:449px) and (max-width:573px){
+    
+     .nav-icon .dropdown .dropcontent  {
+    position: relative;
+    right: 355px !important;
+    width: 409px !important;
+    background-color: #341A79;
+    color: white;
+    border: 1px solid #5D25DD;
+    font-size: 20px
+    }
+    .book-heading h1 {color: white;
+        font-size: 34px !important;
+    }
+    
+     .book-content .Places .input {
+
+    margin-left: 0 !important;
+}
+    
+    .book-content .Places form {
+        margin-left: 0;
+    }
+    .features .features-content .feat {
+        width: 100% !important;
+        margin-right: 0 !important;
+        
+    }
+    .features .features-content .feat:not(:last-of-type) {
+        margin-bottom: 20px !important
+    }
+    .feat-heading h2 {
+font-size:29px !important }
+
+.feat-heading h3 {
+font-size:32px !important}
+
+ .feat-heading p {
+font-size:19px !important}
+    
+    .cities .city-content .city-plan .diff {
+    left: 0px;
+    bottom: 308px;
+}
+    .Destination .Destination-feat {
+        width: 48% ;
+    }
+    .Destination .Destination-feat:not(:last-of-type) {margin-bottom: 21px}
+
+.Destination .Destination-feat:last-of-type {
+    width: 98% ;
+}
+    .Restauarant {height: 1800px !important;}
+        
+    .all1 {
+        position: relative;
+        bottom: 593px !important;}
+    
+    .Restauarant .container {bottom: 1495px !important;}
+    
+    .Event {bottom: 283px !important;}
+    
+    .Event .Event-feat .Event-content {
+        
+        padding-bottom: 0 !important;
+    }
+    .Event-heading P {
+    margin-top: -1px; 
+}
+    
+    .Event {
+   
+    height: 1306px !important;
+   
+}
+    footer {
+
+    bottom: 419px;
+}
+    
+   footer {
+    
+    height: 500px;
+    padding-top: 183px;
+}
+    
+} 
+
+/********/ @media (max-width:767px) {
+    
+    .nav-bar button {
+        display: none
+    }
+     .nav-bar ul {
+        display: none;
+    }
+    nav .sign {
+        display: none;
+    }
+    .nav-icon {
+    margin-top: 21px ;
+    margin-left: 30px ;     
+    }
+    .nav-icon .dropdown .dropcontent  {
+    position: relative;
+    right: 404px;
+    width: 459px;
+    background-color: #341A79;
+    color: white;
+    border: 1px solid #5D25DD;
+    font-size: 20px
+        
+    }
+    .nav-icon .dropdown .dropcontent button {
+        display: block;
+         margin: auto;
+        background-color: aliceblue;
+        color: #341A79
+    }
+    .book-heading h1 {color: white;
+        font-size: 40px;
+    }
+    
+    .book-heading h3 {color: white;
+        font-size: 20px;
+    }
+    .book-content .Places h2 {
+        
+        text-align: center;
+    }
+    
+    #money {
+    width: 35% ;
+ 
+}
+    
+    .book-content .Places .input {
+
+    margin-left: 44px;
+}
+    
+    #change {margin-top: 10px}
+    
+    .book-content .Places select {
+     width: 80%;
+   display: block;
+        margin: auto;
+        margin-bottom: 17px
+}
+    .book-content .Places input {
+        display: block;
+        width: 80%;
+      margin: auto !important;
+    }
+    
+    .features .features-content .feat:not(:last-of-type) {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .features .features-content .feat:last-of-type {
+        width: 98%;
+    }
+    .feat-heading h2 {
+font-size:41px }
+
+.feat-heading h3 {
+font-size:42px }
+
+ .feat-heading p {
+font-size:21px
+    }
+    
+   .all {
+    position: relative;
+    bottom: 2000px;
+}
+    .cities { height: 1700px }
+    .ground {
+        height: 1700px;
+        position: relative !important;
+        top: 1700px !important;
+    }
+    
+    .cities .city-content .city-plan {
+        width: 100% !important;
+    }
+    
+    .cities .city-content .city-plan:not(:last-of-type) {
+        margin-bottom: 30px
+    }
+    
+    .Destination .Destination-feat {
+        width: 48% ;
+    }
+    .Destination .Destination-feat:not(:last-of-type) {margin-bottom: 21px}
+
+.Destination .Destination-feat:last-of-type {
+    width: 98% ;
+}
+    .Destination {bottom: 1910px;}
+    
+    .Restauarant{top: 310px;}
+    .Restauarant .container 
+    { bottom: 1992px; } 
+    
+    .Restauarant .Restauarant-feat {
+        width: 48% ;
+    }
+    
+    .Restauarant .Restauarant-feat:last-of-type {
+    width: 98% ;
+    }
+    
+    .Restauarant .Restauarant-feat:not(:last-of-type) {margin-bottom: 21px}
+    
+    .Restauarant {
+    height: 2000px;
+}
+     .all1 {
+        position: relative;
+        bottom: 273px;
+    }
+    .Restauarant .container h3 {
+        margin-top: 97px; }
+    
+    .Event {
+   
+    height: 1613px;
+    bottom: 0;
+}
+    
+    .Event .Event-feat {
+    width: 93%;
+    margin-bottom: 40px;
+    margin-left: 24px;
+    
+}
+    .Event .Event-feat .Event-content {
+    padding-bottom: 0;
+}
+    
+}
+
+
+/* @media (min-width:449px) and (max-width:495px) and*/
+@media (min-width:768px) and (max-width:991px) {
+    .container{
+        width: 750px;}
+       .nav-bar button {
+        display: none
+    }
+    .nav-bar ul {
+        display: none;
+    }
+    nav .sign {
+        display: none;
+    }
+        .nav-icon {
+    margin-left: 94px;
+    margin-top: 21px; 
+}
+    .nav-icon .dropdown .dropcontent  {
+    position: relative;
+    right: 460px;
+    width: 515px;
+    background-color: #341A79;
+    color: white;
+    border: 1px solid #5D25DD;
+    font-size: 20px    
+        }
+    .nav-icon .dropdown .dropcontent button {
+        display: block;
+        margin: auto;
+        background-color: aliceblue;
+        color: #341A79
+    }
+    
+    .book-heading h1 {color: white;
+        font-size: 48px;
+    }
+    
+    .book-heading h3 {color: white;
+        font-size: 27px;
+    }
+    
+   .book-content .Places .input {
+    margin-left: 38px;
+    margin-bottom: 0;
+}
+    
+    .book-content .Places select
+{ 
+    margin:0 13px 21px 0;}
+    
+.book-content .Places input {
+    margin-left: 7px;
+    padding: 15px 84px;}
+    
+    .all {
+    position: relative;
+    bottom: 2000px;
+}
+    .cities { height: 1700px }
+    .ground {
+        height: 1700px;
+        position: relative !important;
+        top: 1700px !important;
+    }
+    
+    .cities .city-content .city-plan {
+        width: 100% !important;
+    }
+    
+    .cities .city-content .city-plan:not(:last-of-type) {
+        margin-bottom: 20px
+    }
+    
+    .Destination .Destination-feat {
+        width: 48% ;
+    }
+    .Destination .Destination-feat:not(:last-of-type) {margin-bottom: 21px}
+
+.Destination .Destination-feat:last-of-type {
+    width: 97% ;
+}
+    .Destination {
+        
+        bottom: 1915px;
+    }
+    .Restauarant
+    {top: 300px;}
+    .Restauarant .container
+    {bottom: 1967px;}
+    
+    #less {
+        margin-bottom: 43px;
+    }
+    
+    .Event .Event-feat {
+    width: 100%;
+    margin-bottom: 45px;
+}
+    .Event .Event-feat .Event-content {
+    padding-bottom: 74px;
+}
+
+    .Event {
+    top: 300px;
+    height: 1772px;
+}
+    
+    footer {top: 279px;
+}
+
+}
+    
+
+/**/
+@media (min-width:992px) and (max-width:1169px) {
+    .container{
+        width: 970px;}
+    
+    .nav-bar button {
+        display: none
+    }
+    .nav-bar ul {
+        display: none;
+    }
+    nav .sign {
+        display: none;
+    }
+         .nav-icon {
+    margin-left: 140px ;
+    margin-top: 21px ; 
+             
+}
+    .nav-icon .dropdown .dropcontent  {
+    position: relative;
+    right: 644px;
+    width: 700px;
+    background-color: #341A79;
+    color: white;
+    border: 1px solid #5D25DD;
+    font-size: 20px    
+        }
+    .nav-icon .dropdown .dropcontent button {
+        display: block;
+         margin: auto;
+        background-color: aliceblue;
+        color: #341A79
+    }
+    .book-heading h1 {color: white;
+        font-size: 60px;
+    }
+    
+    .book-heading h3 {color: white;
+        font-size: 30px;
+    }
+   #money {
+        width: 22%;
+        padding: 12px 0 !important ;
+        margin: 0
+}
+      .book-content .Places input
+{
+    
+    margin-left: 256px;
+    margin-top: 23px;
+    padding: 15px 70px;
+    font-size: 22px;
+    }
+   
+    .cities .city-content .city-plan .city-info .city-link  a {float: left}
+    
+    .cities .city-content .city-plan .diff {
+    left: 0px;
+    bottom: 299px;
+}
+    
+    .Destination .Destination-feat {
+        width: 18% !important ;
+    }
+    
+    .Event-heading P {
+    margin-top: -3px;
+    }
+}
+    @media (min-width:1170px) {
+       .container{
+        width: 1170px;}
+        .nav-icon{
+            display: none
+        }
+      
+.book-content .Places input {
+
+        padding: 14px 52px;
+}
+        .Destination .Destination-feat {
+        width: 18% !important ;
+    }
+}
+
+
+
+.container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+   /******* End Media *******/
+
+/******* Start My Framwork *******/
+
+.clearfix{clear: both;}
+
+.float-left { float: left;}
+
+.float-right {float: right}
+
+.text-center {text-align: center}
+
+.img-circle {border-radius: 50%}
+
+.img-thumbnail {
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.btn{
+   
+    font-size: 20px;
+    padding: 13px 45px;
+    color: white;
+    background-color: #6731E2;
+    border: 1px solid #5D25DD;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+/*******  End My Framwork *******/
+
+/* .test { width: calc(100%-120px)} */ 
+
+
+
+
+
+
+
+
+
+

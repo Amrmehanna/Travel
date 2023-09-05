@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Travel Content">
+  <title> Travel Booking </title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link href="https://fonts.googleapis.com/css?family=Gugi|Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!--[if lt IE 9]
+	  <script src="js/html5shiv.min.js"></script>
+      <![endif]-->
+  <style></style>
+  <script>
+  </script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "iqe1rb47ij");
+</script>
+
+</head>
+
+<body>
+
+  <!-- Start Header -->
+  <header>
+
+    <nav>
+
+      <div class="nav-bar float-left">
+        <a href="home.html">
+          <img src="img/logo.png">
+        </a>
+      </div>
+
+      <div class="nav-bar float-left">
+
+        <ul>
+          <li><a style="color: #5D25DD" href="home.html"> Home</a>
+          </li>
+
+          <li class="dropdown">
+            <a style="transition: all .1s ease-in-out;cursor: pointer">Explore &#65516;</a>
+            <div class="dropcontent">
+              <a href="home.html">Home</a>
+              <a href="explore.html">Explore</a>
+              <a href="listing.html">Listing</a>
+              <a href="single-listing.html">Single Listing</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </li>
+
+
+          <li class="dropdown">
+            <a style="transition: all .1s ease-in-out ;cursor: pointer">Listing &#65516;</a>
+            <div class="dropcontent">
+              <a href="home.html">Home</a>
+              <a href="explore.html">Explore</a>
+              <a href="listing.html">Listing</a>
+              <a href="single-listing.html">Single Listing</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+      </div>
+      <div class="nav-bar sign float-left">
+
+        <a href="contact.html"> Sign in or Register</a>
+
+      </div>
+      <div class="nav-bar float-right">
+        <div class="nav-icon">
+          <div class="container">
+            <div class="dropdown">
+              <i class="fas fa-bars">
+              </i>
+              <div class="dropcontent">
+                <a href="home.html" target="_blank">Home</a>
+                <a href="explore.html">Explore</a>
+                <a href="listing.html">Listing</a>
+                <a href="single-listing.html">Single Listing</a>
+                <a href="contact.html">Contact</a>
+                <a href="#"> Sign in or Register</a>
+                <a><button class="btn">
+                    +Add Listing</button> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn">
+          +Add Listing</button>
+      </div>
+      <div class="clearfix"></div>
+    </nav>
+
+
+  </header>
+
+  <!-- End Header -->
+
+  <!-- Start Book -->
+  <div class="book">
+    <div class="container">
+      <div class="book-heading">
+        <h1>Discover places near you
+        </h1>
+        <h3>This is the best guide of your city
+        </h3>
+      </div>
+      <div class="book-list">
+        <ul>
+          <li>Places</li>
+
+        </ul>
+      </div>
+      <div class="book-content">
+        <div class="Places ">
+          <h2>What are you looking for?</h2>
+          <div class="input">
+            <label> *Please Enter Your Amount to Select The Good Plan For You </label><br><br>
+            <input type="text" id="money" name="amount" placeholder="Enter...">
+            <select id="change" name="coin">
+
+              <option value="18">Dollar</option>
+              <option value="20">Euro</option>
+              <option value="5">Ryal</option>
+
+            </select>
+            <div id="message"> </div>
+          </div>
+
+          <form action="#" method="get">
+
+            <select name="Destination">
+              <option>Your Destination</option>
+              <option>Cairo</option>
+              <option>Rome</option>
+              <option>New York</option>
+              <option>London</option>
+              <option>Manchester</option>
+              <option>Paris</option>
+            </select>
+
+
+            <select name="Plans">
+              <option value="2">All Plans</option>
+              <option>Plan 1</option>
+              <option>Plan 2</option>
+              <option>Plan 3</option>
+            </select>
+            <select name="Price-Range">
+              <option value="3">Price Range</option>
+              <option>$100 - $499</option>
+              <option>$500 - $999</option>
+              <option>$1000 - $4999</option>
+            </select>
+
+            <input id="on" class="btn" type="submit" name="submit" value="search">
+
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- End Book -->
+
+  <!-- Start features -->
+
+  <div class="features">
+    <div class="container">
+      <div class="features-content">
+        <div id="hotels" class="feat float-left">
+          <img src="img/icon-1.png">
+          <span>Hotels</span>
+        </div>
+        <div id="Rest" class="feat float-left">
+          <img src="img/icon-2.png">
+          <span>Restaurants</span>
+        </div>
+        <div class="feat float-left">
+          <img src="img/icon-3.png">
+          <span>Shopping</span>
+        </div>
+        <div class="feat float-left">
+          <img src="img/icon-4.png">
+          <span>Beuaty and Spa</span>
+        </div>
+        <div class="feat float-left">
+          <img src="img/icon-5.png">
+          <span>Cinema</span>
+        </div>
+
+      </div>
+      <div class="clearfix"></div>
+
+
+    </div>
+  </div>
+  <div class="feat-heading">
+    <h2 class="text-center">DISCOVER YOUR CITY WITH</h2>
+    <h3 class="text-center">Booking Travel</h3>
+    <p class="text-center">Booking Travel Affiliate Partner Program gives you the unique opportunity to connect your
+      business to the world’s most recognized online accommodations booking platform..</p>
+  </div>
+
+  <!-- End features -->
+
+  <!-- Start Cities -->
+  <div class="clearfix"></div>
+  <div class="all">
+    <div class="ground"></div>
+    <div class="cities text-center">
+
+      <div class="container">
+        <span></span>
+        <h3>CITIES YOU MUST SEE
+        </h3>
+        <p>You will Enjoy</p>
+
+        <div class="city-content">
+
+          <div class="city-plan float-left">
+            <img src="img/editor-1.jpg">
+            <div class="city-info diff">
+              <div class="city-link float-left">
+                <a>New York</a>
+                <a>1643 Destinations</a>
+              </div>
+              <div class="add-more float-left">+</div>
+            </div>
+
+          </div>
+
+          <div class="city-plan float-left">
+            <img src="img/editor-2.jpg">
+            <div class="city-info ">
+              <div class="city-link float-left">
+                <a>Barcelona</a>
+                <a>943 Destinations</a>
+              </div>
+              <div class="add-more float-left">+</div>
+            </div>
+          </div>
+
+          <div class="city-plan float-left">
+            <img src="img/editor-3.jpg">
+            <div class="city-info ">
+              <div class="city-link float-left">
+                <a>paris</a>
+                <a>243 Destinations</a>
+              </div>
+              <div class="add-more float-left">+</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+  <!-- End Cities -->
+
+  <!-- Start Destination -->
+
+  <div class="Destination text-center">
+    <div class="container">
+      <span></span>
+      <h3>FEATURED DESTINATIONS
+
+      </h3>
+      <p>You will Enjoy</p>
+
+      <div class="Destination-feat float-left">
+        <p>FROM $59/night</p>
+        <img src="img/feature-1.jpg">
+        <div class="Destination-content">
+
+          <div class="Destination-heading">
+            <h5>IBIZA</h5>
+            <P>Party</P>
+
+          </div>
+
+          <i class="far fa-heart"></i>
+
+        </div>
+
+      </div>
+
+
+      <div class="Destination-feat float-left">
+        <p>FROM $60/night</p>
+        <img src="img/feature-2.jpg">
+        <div class="Destination-content">
+
+          <div class="Destination-heading">
+            <h5>PARIS</h5>
+            <P>Luxury</P>
+
+          </div>
+
+          <i class="far fa-heart"></i>
+
+        </div>
+
+      </div>
+
+
+      <div class="Destination-feat float-left">
+        <p>FROM $70/night</p>
+        <img src="img/feature-3.jpg">
+        <div class="Destination-content">
+
+          <div class="Destination-heading">
+            <h5>LAKE COMO</h5>
+            <P>Spectcular</P>
+
+          </div>
+
+          <i class="far fa-heart"></i>
+
+        </div>
+
+      </div>
+
+
+      <div class="Destination-feat float-left">
+        <p>FROM $63/night</p>
+        <img src="img/feature-4.jpg">
+        <div class="Destination-content ">
+
+          <div class="Destination-heading">
+            <h5>GREECE</h5>
+            <P>Sunny</P>
+
+          </div>
+
+          <i class="far fa-heart"></i>
+
+        </div>
+
+      </div>
+
+
+      <div class="Destination-feat float-left">
+        <p>FROM $80/night</p>
+        <img src="img/feature-5.jpg">
+        <div class="Destination-content">
+
+          <div class="Destination-heading">
+            <h5>NORWAY</h5>
+            <P>All Year round</P>
+
+          </div>
+
+          <i class="far fa-heart"></i>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- End Destination -->
+
+
+  <!-- Start Restauarant -->
+  <div class="all1">
+    <div class="Restauarant text-center">
+      <div class="container">
+        <span></span>
+        <h3>FEATURED RESTAURANTS
+        </h3>
+        <p class="spec">You will Enjoy</p>
+
+        <div class="Restauarant-feat float-left">
+          <div class="creem">
+            <a>9.5</a>
+            <a><img src="img/map.png"> </a>
+          </div>
+          <img src="img/feature-6.jpg">
+          <div class="Restauarant-content">
+
+            <div class="Restauarant-heading">
+              <h5>Martha’s bar</h5>
+              <p id="less">Manhathan</p>
+
+            </div>
+
+            <i class="far fa-heart"></i>
+
+          </div>
+
+        </div>
+
+
+        <div class="Restauarant-feat float-left">
+          <div class="creem">
+            <a>7.5</a>
+            <a><img src="img/map.png"> </a>
+          </div>
+          <img src="img/feature-7.jpg">
+          <div class="Restauarant-content">
+
+            <div class="Restauarant-heading">
+              <h5>Delux Restaurant</h5>
+              <p>Paris</p>
+
+            </div>
+
+            <i class="far fa-heart"></i>
+
+          </div>
+
+        </div>
+
+
+        <div class="Restauarant-feat float-left">
+          <div class="creem">
+            <a>8.5</a>
+            <a><img src="img/map.png"> </a>
+          </div>
+          <img src="img/feature-8.jpg">
+          <div class="Restauarant-content">
+
+            <div class="Restauarant-heading">
+              <h5>Jim’s corner Pub</h5>
+              <p>Madrid</p>
+
+            </div>
+
+            <i class="far fa-heart"></i>
+
+          </div>
+
+        </div>
+
+
+        <div class="Restauarant-feat float-left">
+          <div class="creem">
+            <a>6.5</a>
+            <a><img src="img/map.png"> </a>
+          </div>
+          <img src="img/feature-9.jpg">
+          <div class="Restauarant-content ">
+
+            <div class="Restauarant-heading">
+              <h5>tower Risto bar</h5>
+              <p>Sydney</p>
+
+            </div>
+
+            <i class="far fa-heart"></i>
+
+          </div>
+
+        </div>
+
+
+        <div class="Restauarant-feat float-left">
+          <div class="creem">
+            <a>9.0</a>
+            <a><img src="img/map.png"> </a>
+          </div>
+          <img src="img/feature-10.jpg">
+          <div class="Restauarant-content">
+
+            <div class="Restauarant-heading">
+              <h5>Pizzeria venezia</h5>
+              <p>Hong Kong</p>
+
+            </div>
+
+            <i class="far fa-heart"></i>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End Restauarant -->
+
+  <!-- Start Event -->
+
+
+  <div class="Event">
+    <div class="overlay">
+      <div class="container">
+        <span></span>
+        <h3 class="text-center">FEATURED Event
+        </h3>
+        <p class="text-center spec">You will Enjoy</p>
+
+        <div class="Event-feat float-left">
+          <div class="creem">
+            <a>25 Nov</a>
+            <a><img src="img/map.png"> </a>
+          </div>
+          <img class="float-left" src="img/event-1.jpg">
+          <div class=" float-left Event-content">
+
+            <div class="Event-heading">
+              <h5>JAZZ CONCERT</h5>
+              <p>Manhathan</p>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra...</p>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+        <div class="Event-feat float-left">
+          <div class="creem">
+            <a>25 Nov</a>
+            <a><img src="img/map.png"> </a>
+          </div>
+          <img class="float-left" src="img/event-2.jpg">
+          <div class="float-left Event-content">
+
+            <div class="Event-heading">
+              <h5>DEEJAY IN THE HOUSE</h5>
+              <p>Manhathan</p>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra...</p>
+
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+        <div class="Event-feat float-left">
+          <div class="creem">
+            <a>25 Nov</a>
+            <a><img src="img/map.png"> </a>
+          </div>
+          <img class="float-left" src="img/event-3.jpg">
+          <div class=" float-left Event-content">
+
+            <div class="Event-heading">
+              <h5>THEATRE NIGHT </h5>
+              <p>Manhathan</p>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra...</p>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+        <div class="Event-feat float-left">
+          <div class="creem">
+            <a>25 Nov</a>
+            <a><img src="img/map.png"> </a>
+          </div>
+          <img class="float-left" src="img/event-4.jpg">
+          <div class="float-left Event-content ">
+
+            <div class="Event-heading">
+              <h5>WINE TASTING</h5>
+              <p>Manhathan</p>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra...</p>
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+        <div class="Event-feat float-left">
+          <div class="creem">
+            <a>25 Nov</a>
+            <a><img src="img/map.png"> </a>
+          </div>
+          <img class="float-left" src="img/event-5.jpg">
+          <div class=" float-left Event-content">
+
+            <div class="Event-heading">
+              <h5>NEW MOON PARTY</h5>
+              <p>Manhathan</p>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra...</p>
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <div class="Event-feat float-left">
+          <div class="creem">
+            <a>25 Nov</a>
+            <a><img src="img/map.png"> </a>
+          </div>
+          <img class="float-left" src="img/event-6.jpg">
+          <div class=" float-left Event-content">
+
+            <div class="Event-heading">
+              <h5>HAPPY HOUR AT PUB</h5>
+              <p>Manhathan</p>
+              <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra...</p>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+
+
+  <!-- start footer -->
+  <footer>
+    <div class="container">
+      <h3 class="p"> Copyright &copy; 2019 - Built With Love
+        <i class="fas fa-heart"></i>
+      </h3>
+
+      <ul>
+        <li><a href="#" target="_blank"> <i class="fab fa-facebook-square fa-2x"></i></a></li>
+
+        <li> <a href="#" target="_blank">
+            <i class="fab fa-youtube-square fa-2x"></i></a></li>
+
+        <li> <a href="https://www.instagram.com/amr_mehana" target="_blank"> <i class="fab fa-instagram fa-2x"></i></a>
+        </li>
+
+        <li> <a href="#" target="_blank"> <i class="fab fa-github fa-2x"></i></a></li>
+
+        <li> <a href="#" target="_blank"><i class="fab fa-codepen fa-2x"></i> </a> </li>
+      </ul>
+    </div>
+  </footer>
+  <div class="clearfix"></div>
+  <!-- End footer -->
+
+
+
+  <script src="js/File.js"></script>
+
+</body>
+
+</html>

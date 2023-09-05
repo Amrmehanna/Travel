@@ -1,0 +1,805 @@
+* {
+    -webkit-box-sizing: border-box;-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 4000px
+}
+
+/* Start Header */
+header { 
+    height: 900px ; 
+    background-image: url(../img/breadcumb.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+
+nav {
+    background-color: rgba(38,27,57,.94);
+    margin-top: 148px;height: 81px;
+    position: fixed;
+    top: -149px;
+    left: 0px;
+    width: 100%;
+    z-index: 9999;
+}
+.nav-bar {width: 25%}
+
+.nav-bar:first-of-type{
+    margin-top: -12px;
+    width: 20%;
+}
+
+.nav-bar:nth-of-type(2){width: 30%}
+.nav-bar img {
+    height: 106px;
+    cursor: pointer;
+    margin-left: 30px;
+    width: 166px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 22px;
+}
+.nav-bar ul li {
+    display: inline-block;
+    padding: 10px 18px 10px 0;
+    font-size: 17px;
+    font-weight:600;
+
+    
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white
+}
+.nav-bar ul li a:hover {
+    color: #5D25DD;
+    transition: all .5s ease-in-out}
+
+.nav-bar .dropdown {
+    position: relative;
+    display: inline-block;
+}
+.nav-bar .dropdown .dropcontent {
+        display: none;
+        position: absolute;
+        background-color:#FFFFFF;
+        width: 150px;
+        border: 1px solid #FFFFFF;
+        border-radius: 10px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* box-shadow:  5px 5px 12px #ccc; */
+}
+.nav-bar .dropdown .dropcontent a {
+    display: inline-block;
+    text-decoration: none;
+    color: currentColor;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+.nav-bar .dropdown .dropcontent a:hover{
+    background-color: #7643EA;
+    color: white;
+    transition: all .4s ease-in-out;
+     border: 1px solid #7643EA;
+        border-radius: 10px;
+}
+
+.nav-bar .dropdown:hover .dropcontent {
+    display: block;
+    transition: all .5s ease-in-out
+    } 
+
+nav .sign a {
+    
+   display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 31px;
+    margin-left: 140px;
+  
+}
+
+.nav-icon .dropdown .dropcontent  {
+    
+    width: 300px;    
+        }
+.back {
+  /* background-color:#13072b;
+    opacity: .3;
+    position: relative;
+    bottom: 900px;
+    height: 900px;*/
+
+}
+ .nav-bar button {
+    margin-left: 92px;
+    margin-top: 15px;
+    font-size: 20px;
+    padding: 13px 45px;
+    color: white;
+    background-color: #6731E2;
+    border: 1px solid #5D25DD;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.nav-bar button:hover{
+    background-color: #5D25DD;
+    transition: all .5s ease-in-out;
+}
+
+.nav-bar i {
+    color: white;
+    border: 2px solid white ;
+    border-radius: 5px;
+    padding: 10px 17px;
+    cursor: pointer;
+    margin: 0
+}
+.back .icon{
+    float: right;
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+    height: 70px;
+    cursor: pointer
+}
+.back .icon:first-of-type{
+    background-color: #fff;
+    color: #000;
+    width: 14%;
+    margin-top: -8%;
+}
+.back .icon:first-of-type span{
+    position: relative;
+    top: 25px;
+    left: 30px;
+    font-size: 16px;
+    font-weight: 550;
+}
+.back .icon:nth-child(2){
+    background-color: #7643EA;
+    width: 8%;
+    margin-top: -8%;
+    margin-right: 14%
+    
+}
+.back .icon:nth-child(2) span{
+    position: relative;
+    top: 25px;
+    left: 34px;
+    font-size: 16px;
+    font-weight: 550;
+}
+.back .icon:last-of-type{
+    background-color: #30C0A3;
+    width: 8%;
+    margin-top: -8%;
+    margin-right: 22%
+}
+.back .icon .image{
+    width:40px;
+}
+
+/*start media*/
+@media(min-width:450px) and (max-width:600px){
+    .back .icon:first-of-type{
+       width: 33%;
+        margin-top: -18%;
+    }
+    .back .icon:nth-child(2){
+        width: 19%;
+        margin-top: -18%;
+        margin-right: 33%;
+    } 
+    .back .icon:nth-child(3){
+        width: 19%;
+        margin-top: -18%;
+        margin-right: 52%;
+    }   
+}
+@media(min-width:601px) and (max-width:767px){
+    .back .icon:first-of-type{
+        width: 26%;
+        margin-top: -14%;
+    }
+    .back .icon:nth-child(2){
+        width: 13%;
+        margin-top: -14%;
+        margin-right: 26%;
+    } 
+    .back .icon:nth-child(3){
+        width: 13%;
+        margin-top: -14%;
+        margin-right: 39%;
+    } 
+}
+@media(min-width:768px) and (max-width:991px){
+   .back .icon:first-of-type{
+        width: 22%;
+        margin-top: -12%;
+    }
+    .back .icon:nth-child(2){
+        width: 12%;
+        margin-top: -12%;
+        margin-right: 22%;
+    }
+    .back .icon:nth-child(3){
+        width: 12%;
+        margin-top: -12%;
+        margin-right: 34%;
+    }
+}    
+@media(min-width:992px) and (max-width:1170px){
+    .back .icon:first-of-type span{
+        left: 13px;
+    }
+    .back .icon:first-of-type{
+        margin-top: -9%
+    }
+    .back .icon:nth-child(2){
+        width: 9%;
+        margin-top: -9%
+            
+    }
+    .back .icon:last-of-type{
+        width: 9%;
+        margin-top: -9%
+    }
+}
+/*end media*/
+/* End Header */
+
+/*start they say*/
+.they-say .up{
+    width: 64%;
+    padding: 100px 10px
+}
+.they-say .down{
+    width: 35%;
+    padding: 100px 10px;
+}
+.they-say .up h3{
+    font-size: 24px;
+    margin: 0 0 10px;
+    font-weight: 800
+}
+.they-say .up span{
+    font-weight: 600;
+    color: #C3C3C3FF;
+}
+.they-say .up a{
+    text-decoration: none;
+    color: #242424;
+    margin-right: 5%;
+    font-size: 18px;
+}
+.links{
+    margin-top: 50;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.they-say .up a:hover{
+    color: #7643EA;
+}
+.they-say .up p{
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    color: #848484;
+    
+}
+.they-say .up .overview{
+    float: left;
+    width: 49%;
+    margin-bottom: 25px;
+    margin-left: 1%
+}
+.they-say .up .overview input{
+    margin-right: 3%;
+    border: none;
+    
+}
+.they-say .up .overview span{
+    color: #242424   
+}
+.they-say .up .h3{
+    font-weight: bold;
+    margin: 80px 0 40px 10px;
+}
+.they-say .up .menu{
+    padding: 30px;
+    height: 120px;
+    margin-bottom: 5px
+}
+.they-say .up .menu span{
+    color: #242424 
+}
+.they-say .up .menu p{
+    margin-left: 0;
+    color: #848484;
+}
+.they-say .up .menu:nth-child(even){
+    background-color: #F3EDFF
+}
+.they-say .up .menu:nth-child(odd){
+    background-color: #FBF9FF
+}
+.up input{
+    color: #fff;
+    font-size: 19px;
+    margin-top: 50px;
+    padding: 16px;
+    border: 0;
+    background-color: #7643EA;
+    font-weight: 500;
+}
+.up input:hover{
+    background-color: #5D25DD
+}
+.they-say .person-say{
+    margin-bottom: 60px;
+}
+.they-say .person-say .image
+{
+    width: 11%;
+    margin-right: 20px;
+    margin-top: 11px
+}
+.they-say .person-say .image img{
+    width: 100%;
+}
+.they-say .person-say .word-say{
+    width: 80%;
+    
+}
+.they-say .person-say .word-say h4{margin: 0 ;color: #555252}
+.they-say .person-say .last{
+    margin-left: 15%
+}
+.they-say .person-say .last h5{margin: 0 ;color: #555252;font-size: 14px}
+.they-say .person-say .last p{margin: 7px 0 0 0;}
+/*end up*/
+
+/*start down*/
+.down .link{
+    min-width: 100%;
+    background-color: #7643EA;
+    height: 52px
+}
+.down a{
+    text-decoration: none;
+    color: #fff;
+    height: 52px;
+    margin-left: 26%;
+    min-width: 180px;
+    
+}
+.down .link:hover{
+    background-color: #5D25DD
+}
+.down a img{
+    width: 14px;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+.down a span{font-size: 17px}
+.down .form{
+    background-color: #7643EA;
+    padding: 50px 30px;
+    margin-top: 50px;
+    color: #fff
+}
+.down .form form input,select{
+    display: block;
+    margin-bottom: 30px;
+    border: none;
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    color: #72728c;
+    padding: 0 30px
+}
+.down .form form button{
+    min-width: 180px;
+    border: 0;
+    background-color: #fff;
+    height: 52Px;
+    
+}
+.down .form form button img{
+    width: 13px;
+    margin-right: 10px;
+}
+.down .form form button span{
+    color: #5d5d5f
+}
+.down .table{
+    margin: 50px 0;
+    background-color: #F3EDFF;
+}
+.down .table table{
+    padding: 5px 10px 50px 10px;
+    color: #848484
+}
+.down .table table .right{
+    padding-right: 200px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.down .table table .left{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.down .author{
+    padding: 20px;
+    background-color: #F3EDFF;
+}
+.down .author img{
+    width: 100%;
+    margin-right: 30px;
+    margin-left: 40px;
+    margin-top: 9px
+}
+.down .author h5
+{
+    cursor: pointer;
+    margin: 0 0 10x;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.down .form2{
+    background-color:#F3EDFF;
+    margin-top: 50px;
+    padding: 10%;
+}
+.down .form2 h4{
+    font-size: 21px;
+    font-weight: 500
+}
+.down .form2 form input{
+    border: none;
+    display: block;
+    margin-bottom: 23px;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 14px; 
+}
+.down .form2 form textarea{
+    border: none;
+    display: block;
+    margin-bottom: 23px;
+    width: 100%;
+    height: 100px
+}
+.down .form2 form input:last-of-type{
+    width: 50%;
+    background-color: #7643EA;
+    color: #fff;
+    font-size: 14px
+}
+.down .form2 form input:last-of-type:hover{
+    background-color: #5D25DD
+}
+/*start media*/
+@media(max-width:767px){
+    .they-say .up,.they-say .down{
+        float: none;
+        width: 100%;
+    }
+     .they-say .down table{
+        
+         margin: auto;
+    }
+    .they-say .down .table h5{
+        text-align: center
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .they-say .up{
+        float: none;
+        width: 100%
+    }
+    .they-say .down{
+        float:none;
+        width: 70%;
+        margin: auto
+    }
+    .down .table table {
+        margin: auto
+    }
+    .down .table h5{
+        text-align: center
+    }
+}
+@media(min-width:992px) and (max-width:1170px){
+    
+}
+@media(min-width:992px) and (max-width:1170px){
+    .down .table table .right {
+        padding-right: 130px
+    }
+}
+/*end media*/
+/*end they say*/
+
+
+
+
+
+
+
+/*start footer*/
+.footer{
+    height: 120px;
+    color: #848484
+}
+.footer .foot{
+    margin:25px 50px 0 50px;
+}
+.footer .foot span{
+    font-size: 18px
+}
+.footer .foot span div
+{
+    display: inline
+}
+.footer .image img
+{
+    width:30px;
+    height:30px;
+    margin:10px 0 0
+}
+@media (max-width:767px){
+    .footer .foot{
+            float: none;
+            text-align: center;
+        }
+} 
+@media (min-width:768px) and (max-width:991px){
+        .footer .foot{
+            float: none;
+            text-align: center;
+        }
+}
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Start Media*/
+@media (min-width:449px) and (max-width:495px){
+    
+     .nav-icon .dropdown .dropcontent  {
+    position: relative;
+    right: 355px !important;
+    width: 409px !important;
+    background-color: #341A79;
+    color: white;
+    border: 1px solid #5D25DD;
+    font-size: 20px
+    }
+    .container{
+        margin: auto
+    }
+} 
+
+@media (max-width:767px) {
+    
+    .nav-bar button {
+        display: none
+    }
+     .nav-bar ul {
+        display: none;
+    }
+    nav .sign {
+        display: none;
+    }
+    .nav-icon {
+    margin-top: 21px ;
+    margin-left: 30px ;     
+    }
+    .nav-icon .dropdown .dropcontent  {
+    position: relative;
+    right: 404px;
+    width: 459px;
+    background-color: #341A79;
+    color: white;
+    border: 1px solid #5D25DD;
+    font-size: 20px
+        
+    }
+    .nav-icon .dropdown .dropcontent button {
+        display: block;
+         margin: auto;
+        background-color: aliceblue;
+        color: #341A79
+    }
+    .container{
+        margin: auto
+    }
+}
+/* @media (min-width:449px) and (max-width:495px) and*/
+@media (min-width:768px) and (max-width:991px) {
+    .container{
+        width: 750px;}
+       .nav-bar button {
+        display: none
+    }
+    .nav-bar ul {
+        display: none;
+    }
+    nav .sign {
+        display: none;
+    }
+        .nav-icon {
+    margin-left: 94px;
+    margin-top: 21px; 
+}
+    .nav-icon .dropdown .dropcontent  {
+    position: relative;
+    right: 460px;
+    width: 515px;
+    background-color: #341A79;
+    color: white;
+    border: 1px solid #5D25DD;
+    font-size: 20px    
+        }
+    .nav-icon .dropdown .dropcontent button {
+        display: block;
+        margin: auto;
+        background-color: aliceblue;
+        color: #341A79
+    }
+    .container{
+        margin: auto
+    }
+}
+@media (min-width:992px)and (max-width:1169px){
+    .container{
+        width: 970px;
+    }
+    
+    .nav-bar button {
+        display: none
+    }
+    .nav-bar ul {
+        display: none;
+    }
+    nav .sign {
+        display: none;
+    }
+         .nav-icon {
+    margin-left: 140px ;
+    margin-top: 21px ; 
+             
+}
+    .nav-icon .dropdown .dropcontent  {
+    position: relative;
+    right: 644px;
+    width: 700px;
+    background-color: #341A79;
+    color: white;
+    border: 1px solid #5D25DD;
+    font-size: 20px    
+        }
+    .nav-icon .dropdown .dropcontent button {
+        display: block;
+         margin: auto;
+        background-color: aliceblue;
+        color: #341A79
+    }
+}
+    @media (min-width:1170px) {
+       .container{
+        width: 1170px;}
+        .nav-icon{
+            display: none
+        }
+}
+
+
+
+.container {
+    margin: auto;  
+    padding-left: 15px;
+    padding-right: 15px;
+}
+   /*End Media*/
+
+
+/*   Start My Framwork */
+
+.clearfix{clear: both;}
+
+.float-left { float: left;}
+
+.float-right {float: right}
+
+.text-center {text-align: center}
+
+.img-circle {border-radius: 50%}
+
+.img-thumbnail {
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+/*   Start My Framwork */
+
+/* .test { width: calc(100%-120px)} */ 
